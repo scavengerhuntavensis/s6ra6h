@@ -36,6 +36,6 @@ const checkAns = (correct, mainContent, second, input, secondAns, thirdRiddle) =
                 }
             });
 
-        }, 3500);
+        }, 1000);
     }
 }

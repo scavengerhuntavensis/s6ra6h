@@ -15,7 +15,7 @@ window.onload = () => {
 
 
 const checkAns = (correct, mainContent, second, input) => {
-    if(input == "310780"){
+    if(md5(input) == "08226be64e1830ccecf7a033b77d7108"){
         mainContent.style.visibility = "hidden";
         correct.innerHTML = "Yes you are right, lets move to next clue";
         const fiveSeconds = setTimeout(() => {

@@ -27,7 +27,7 @@ const checkAns = (correct, mainContent, second, input, secondAns, thirdRiddle) =
 
             secondAns.addEventListener("input", (e) => {
                 let input = e.target.value;
-                if(md5(input) == "7f7e864a8bf180a5ad6ac841ec1f5196" || md5(input) == "861d2b5ca10a0dd590753e48001f93ab" || md5(input) == "a08ecec277db4a6ed0b3635cfadc9af1" || md5(input) == "360d214e899b88b8fe54a260668c2f48" || md5(input) == "948d483dc4137355b5622851d72ba9ed" || md5(input) == "922c9b36443c4cf8af0a4cc6801bbaa3"){
+                if(md5(input) == "215207dff5e2c3eb82cd02232b1cb9fe" || md5(input) == "0f461e64d283177a15179b180fed353d" || md5(input) == "5ee036e8c1dd84308ab7188ced4c7fae" || md5(input) == "7f7e864a8bf180a5ad6ac841ec1f5196" || md5(input) == "861d2b5ca10a0dd590753e48001f93ab" || md5(input) == "a08ecec277db4a6ed0b3635cfadc9af1" || md5(input) == "360d214e899b88b8fe54a260668c2f48" || md5(input) == "948d483dc4137355b5622851d72ba9ed" || md5(input) == "922c9b36443c4cf8af0a4cc6801bbaa3"){
                     thirdRiddle.style.visibility = "visible";
                     thirdRiddle.innerHTML = "Now for getting the prop, head to the room near the factory equipment without a doubt"
                     correct.style.height = 0;
